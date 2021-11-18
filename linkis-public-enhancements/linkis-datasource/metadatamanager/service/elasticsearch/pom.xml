@@ -35,12 +35,12 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-metadatamanager-common</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-module</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>asm</artifactId>

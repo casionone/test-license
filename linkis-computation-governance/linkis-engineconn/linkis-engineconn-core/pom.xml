@@ -34,19 +34,19 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-engineconn-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-computation-governance-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-engineconn-plugin-core</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
 

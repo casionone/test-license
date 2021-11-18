@@ -33,24 +33,24 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-executor-core</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-engineconn-launch</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <!--<dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>-->
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-message-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>reflections</artifactId>

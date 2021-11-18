@@ -34,21 +34,21 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-rpc</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-storage</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-computation-orchestrator</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     <build>

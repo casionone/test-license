@@ -35,22 +35,22 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-cli-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-cli-core</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-computation-client</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-gateway-httpclient-support</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

@@ -62,14 +62,14 @@
                     <groupId>org.apache.linkis</groupId>
                 </exclusion>
             </exclusions>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-mybatis</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>linkis-common</artifactId>
@@ -91,7 +91,7 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-engineconn-plugin-loader</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <exclusions>
                 <exclusion>
                     <artifactId>linkis-common</artifactId>
@@ -113,7 +113,7 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
 

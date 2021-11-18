@@ -32,13 +32,13 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-rpc</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-resource-manager-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     <build>

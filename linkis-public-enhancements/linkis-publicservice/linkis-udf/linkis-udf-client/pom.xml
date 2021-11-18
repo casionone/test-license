@@ -38,13 +38,13 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-udf-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-message-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
 

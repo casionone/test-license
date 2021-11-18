@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-message-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-label-common</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

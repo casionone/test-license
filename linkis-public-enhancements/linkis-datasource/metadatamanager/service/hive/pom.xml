@@ -36,12 +36,12 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-metadatamanager-common</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-module</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <!--Hive dependencies-->
     <dependency>
@@ -90,7 +90,7 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-bml-client</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 

@@ -33,19 +33,19 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-orchestrator-ecm-plugin</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-code-orchestrator</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-message-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
 
 
