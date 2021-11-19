@@ -90,13 +90,6 @@
     </issueManagement>
     <modules>
         <module>linkis-commons</module>
-        <module>linkis-spring-cloud-services</module>
-        <module>linkis-orchestrator</module>
-        <module>linkis-public-enhancements</module>
-        <module>linkis-computation-governance</module>
-        <module>linkis-engineconn-plugins</module>
-        <module>linkis-extensions</module>
-        <module>assembly-combined-package</module>
     </modules>
 
     <properties>

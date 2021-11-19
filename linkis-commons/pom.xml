@@ -31,14 +31,7 @@
     <modules>
         <module>linkis-common</module>
         <module>linkis-hadoop-common</module>
-        <module>linkis-httpclient</module>
-        <module>linkis-protocol</module>
-        <module>linkis-scheduler</module>
         <module>linkis-module</module>
-        <module>linkis-mybatis</module>
-        <module>linkis-rpc</module>
-        <module>linkis-message-scheduler</module>
-        <module>linkis-storage</module>
     </modules>
 
 </project>
