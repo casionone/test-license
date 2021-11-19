@@ -42,9 +42,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/apache/incubator-linkis</url>
-        <connection>scm:git:https://github.com/apache/incubator-linkis.git</connection>
-        <developerConnection>scm:git:https://github.com/apache/incubator-linkis.git</developerConnection>
+        <url>https://github.com/casionone/incubator-linkis</url>
+        <connection>scm:git:https://github.com/casionone/incubator-linkis.git</connection>
+        <developerConnection>scm:git:https://github.com/casionone/incubator-linkis.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
