@@ -30,7 +30,7 @@
 
     <groupId>org.apache.linkis</groupId>
     <artifactId>linkis</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Linkis Project Parent POM</name>
     <description>Linkis helps easily connect to various back-end computation/storage engines</description>
@@ -100,7 +100,7 @@
     </modules>
 
     <properties>
-        <linkis.version>1.0.3</linkis.version>
+<!--        <linkis.version>1.0.3</linkis.version>-->
         <hadoop.version>2.7.2</hadoop.version>
         <spring.eureka.version>2.2.1.RELEASE</spring.eureka.version>
         <spring.feign.version>2.2.1.RELEASE</spring.feign.version>
@@ -153,19 +153,19 @@
                         <groupId>org.hibernate.validator</groupId>
                     </exclusion>
                 </exclusions>
-                <version>${linkis.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.linkis</groupId>
                 <artifactId>linkis-common</artifactId>
-                <version>${linkis.version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.linkis</groupId>
                 <artifactId>linkis-mybatis</artifactId>
-                <version>${linkis.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.code.gson</groupId>
@@ -266,10 +266,13 @@
                         <artifactId>maven-deploy-plugin</artifactId>
                         <version>3.0.0-M1</version>
                     </plugin>
-                    <!--<plugin>
+                   <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
                         <version>3.0.1</version>
+                       <configuration>
+                           <doclint>none</doclint>
+                       </configuration>
                         <executions>
                             <execution>
                                 <id>attach-javadocs</id>
@@ -278,7 +281,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>-->
+                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>

@@ -36,7 +36,7 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-module</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>asm</artifactId>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-datasourcemanager-common</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
       <exclusions>
         <exclusion>
           <artifactId>asm</artifactId>
@@ -80,25 +80,25 @@
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-bml-client</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-mybatis</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <!--rpc-->
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-rpc</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <!--Metadata common-->
     <dependency>
       <groupId>org.apache.linkis</groupId>
       <artifactId>linkis-metadatamanager-common</artifactId>
-      <version>${linkis.version}</version>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 

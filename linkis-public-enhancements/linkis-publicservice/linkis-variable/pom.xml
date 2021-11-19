@@ -24,7 +24,7 @@
     <parent>
         <artifactId>linkis</artifactId>
         <groupId>org.apache.linkis</groupId>
-        <version>1.0.3</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>linkis-variable</artifactId>
 
@@ -33,12 +33,12 @@
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-mybatis</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.linkis</groupId>
             <artifactId>linkis-message-scheduler</artifactId>
-            <version>${linkis.version}</version>
+            <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
