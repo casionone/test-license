@@ -28,7 +28,7 @@
 
     <groupId>org.apache.linkis</groupId>
     <artifactId>linkis</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Linkis Project Parent POM</name>
     <description>Linkis helps easily connect to various back-end computation/storage engines</description>
@@ -45,7 +45,7 @@
         <url>https://github.com/apache/incubator-linkis</url>
         <connection>scm:git:https://github.com/apache/incubator-linkis.git</connection>
         <developerConnection>scm:git:https://github.com/apache/incubator-linkis.git</developerConnection>
-        <tag>1.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <mailingLists>
