@@ -29,7 +29,6 @@
     <modules>
         <module>linkis-common</module>
         <module>linkis-hadoop-common</module>
-        <module>linkis-module</module>
     </modules>
 
 </project>
