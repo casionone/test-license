@@ -28,7 +28,7 @@
 
     <groupId>org.apache.linkis</groupId>
     <artifactId>linkis</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3-rc</version>
     <packaging>pom</packaging>
     <name>Linkis Project Parent POM</name>
     <description>Linkis helps easily connect to various back-end computation/storage engines</description>
@@ -257,22 +257,22 @@
                         <artifactId>maven-deploy-plugin</artifactId>
                         <version>3.0.0-M1</version>
                     </plugin>
-                   <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>3.0.1</version>
-                       <configuration>
-                           <doclint>none</doclint>
-                       </configuration>
-                        <executions>
-                            <execution>
-                                <id>attach-javadocs</id>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
+<!--                   <plugin>-->
+<!--                        <groupId>org.apache.maven.plugins</groupId>-->
+<!--                        <artifactId>maven-javadoc-plugin</artifactId>-->
+<!--                        <version>3.0.1</version>-->
+<!--                       <configuration>-->
+<!--                           <doclint>none</doclint>-->
+<!--                       </configuration>-->
+<!--                        <executions>-->
+<!--                            <execution>-->
+<!--                                <id>attach-javadocs</id>-->
+<!--                                <goals>-->
+<!--                                    <goal>jar</goal>-->
+<!--                                </goals>-->
+<!--                            </execution>-->
+<!--                        </executions>-->
+<!--                    </plugin>-->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
@@ -406,13 +406,13 @@
                                 <goal>testCompile</goal>
                             </goals>
                         </execution>
-                        <execution>
-                            <id>attach-scaladocs</id>
-                            <phase>verify</phase>
-                            <goals>
-                                <goal>doc-jar</goal>
-                            </goals>
-                        </execution>
+<!--                        <execution>-->
+<!--                            <id>attach-scaladocs</id>-->
+<!--                            <phase>verify</phase>-->
+<!--                            <goals>-->
+<!--                                <goal>doc-jar</goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
                     </executions>
                     <configuration>
                         <scalaVersion>${scala.version}</scalaVersion>
