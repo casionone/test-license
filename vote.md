@@ -27,25 +27,25 @@ Hello Apache Linkis PPMC and Community,
     This is a call for vote to release Apache Linkis (Incubating) version 1.0.3
 
     Release notes:
-	    https://github.com/apache/incubator-linkis/issues/1110
+	https://github.com/apache/incubator-linkis/issues/1110
 
     The release candidates:
     	https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-rc01
 
     Maven artifacts are available in a staging repository at:
-	    https://repository.apache.org/content/repositories/orgapachelinkis-1038
+	https://repository.apache.org/content/repositories/orgapachelinkis-1038
 
     Git tag for the release:
-	    https://github.com/apache/incubator-linkis/tree/release-1.0.3
+	https://github.com/apache/incubator-linkis/tree/release-1.0.3
 
     Keys to verify the Release Candidate:
-	    https://dist.apache.org/repos/dist/dev/incubator/linkis/KEYS
+	https://dist.apache.org/repos/dist/dev/incubator/linkis/KEYS
 
     This has been signed with PGP key 557A529D205AFE73D1FC7C48DCF229EF6FD6D28C, corresponding to peacewong@apache.org.
 
-	The vote will be open for at least 72 hours or until necessary number of votes are reached.
+    The vote will be open for at least 72 hours or until necessary number of votes are reached.
 
-	Please vote accordingly:
+    Please vote accordingly:
 
 	[ ] +1 approve
 
@@ -53,7 +53,7 @@ Hello Apache Linkis PPMC and Community,
 
 	[ ] -1 disapprove with the reason
 
-	Checklist for reference:
+    Checklist for reference:
 
 	[ ] Download links are valid.
 
@@ -67,8 +67,8 @@ Hello Apache Linkis PPMC and Community,
 
 	[ ] No compiled archives bundled in source archive.
 
-	More detail checklist  please refer:
-		https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
+    More detail checklist  please refer:
+	https://cwiki.apache.org/confluence/display/INCUBATOR/Incubator+Release+Checklist
 
 Thanks,
 Shuai Di
