@@ -1,21 +1,22 @@
-相关链接
-linkis svn源码和安装包
+## 相关链接
+
+**linkis svn源码和安装包**
 https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-rc01/
 
-linkis maven仓库staging地址
+**linkis maven仓库staging地址**
 https://repository.apache.org/content/repositories/orgapachelinkis-1038
 
-linkis snapshot 包地址 
+**linkis snapshot 包地址** 
 https://repository.apache.org/content/groups/snapshots/org/apache/linkis/
 
-linkis 1.0.3版本release notes 
+**linkis 1.0.3版本release notes** 
 https://github.com/apache/incubator-linkis/issues/1110
 
-发布流程梳理 
-https://github.com/casionone/incubator-linkis/blob/for-test/apache-release-linkis.md
+**发布流程梳理** https://github.com/casionone/incubator-linkis/blob/for-test/apache-release-linkis.md
 
+## 邮件内容
 
-邮件内容
+```html
 标题：
 [VOTE] Release Apache Linkis (Incubating) 1.0.3-rc01
 
@@ -71,3 +72,5 @@ Hello Apache Linkis PPMC and Community,
 
 Thanks,
 Shuai Di
+```
+
