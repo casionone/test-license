@@ -1,10 +1,10 @@
 ## 相关链接
 
 **linkis svn源码和安装包**
-https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-rc01/
+https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-RC1/
 
 **linkis maven仓库staging地址**
-https://repository.apache.org/content/repositories/orgapachelinkis-1038
+https://repository.apache.org/content/repositories/orgapachelinkis-1048
 
 **linkis snapshot 包地址** 
 https://repository.apache.org/content/groups/snapshots/org/apache/linkis/
@@ -46,13 +46,13 @@ Hello Apache Linkis PPMC and Community,
 	https://github.com/apache/incubator-linkis/issues/1110
 
     The release candidates:
-    	https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-rc01
+    	https://dist.apache.org/repos/dist/dev/incubator/linkis/1.0.3-RC1
 
     Maven artifacts are available in a staging repository at:
-	https://repository.apache.org/content/repositories/orgapachelinkis-1038
+	https://repository.apache.org/content/repositories/orgapachelinkis-1048
 
     Git tag for the release:
-	https://github.com/apache/incubator-linkis/tree/release-1.0.3
+	https://github.com/apache/incubator-linkis/tree/1.0.3-RC1
 
     Keys to verify the Release Candidate:
 	https://dist.apache.org/repos/dist/dev/incubator/linkis/KEYS
