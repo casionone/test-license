@@ -34,7 +34,7 @@ https://github.com/apache/incubator-linkis/issues/1110
 
 ```html
 标题：
-[VOTE] Release Apache Linkis (Incubating) 1.0.3-rc01
+[VOTE] Release Apache Linkis (Incubating) 1.0.3-RC1
 
 内容：
 
