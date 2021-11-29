@@ -16,7 +16,7 @@ https://github.com/apache/incubator-linkis/issues/1110
 
 ## 发起投票
 
-> Linkis 仍在孵化阶段，需要进行两次投票
+> Linkis 仍在孵化阶段，正式版本需要进行两次投票
 
 - Linkis社区投票，发送邮件至：`dev@linkis.apache.org`
 - incubator社区投票，发送邮件至：`general@incubator.apache.org` Linkis毕业后，只需要在Linkis社区投票
