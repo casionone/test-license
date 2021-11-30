@@ -49,7 +49,7 @@ Thanks,
 Shuai Di
 
 ```
-### Step2 发起RC版本的Linkis社区投票
+### Step2 RC版本 发起Linkis社区投票
 
 - 最终ASF正式版本前，可以进行多次RC版本发布和投票。对于最终的正式版本，在Linkis社区投票成功后，还需要发起incubator社区投票。
 - PMC需要先按照文档检查版本的正确性，然后再进行投票。 
@@ -121,7 +121,7 @@ Shuai Di
 投票后结束后，需要统计发布投票结果，并发送投票结果邮件
 
 
-#### 发起incubator社区投票(正式ASF版本)
+#### Step3 正式ASF版本 发起incubator社区投票
 - Linkis社区投票成功之后，才能进行这一步
 - incubator社区投票，发送邮件至：`general@incubator.apache.org`
 
